@@ -10,4 +10,7 @@ Links and Resources: N/a
 
 Reflections and Comments
 - new way of syntax learned today, learned to how to ACP using git commands to Github.
-- Learned a new way of combining a sting and function together using `${}`
+- Learned a new way of combining a string and function together using (`${}`)
+- syntax as usual can be pretty tricky, especially with a bigger file being worked on.
+- repetition seemed to be key for if else statements that rely on yes or no
+- I need to practice my css more 
