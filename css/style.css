@@ -1,3 +1,12 @@
-body{
-  background
+header {
+  font-size: x-large;
+  background: #6930C3;
+  text-align: center;
+  border: thick double;
+  margin: 15px;
+  }
+main {
+text-align: center;
+font-size: larger;
+
 }
