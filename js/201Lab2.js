@@ -21,34 +21,34 @@ let answerOne = prompt('Do I have a cat?').toLowerCase();
 let answerTwo = prompt('Do I play the bass?').toLowerCase();
 
   if(answerTwo === 'yes'|| answerTwo === 'y'){
-  alert('Unfortunatly I do not, I play the guitar!')
+  alert('Unfortunatly I do not, I play the guitar!');
   } else if(answerTwo === 'no' || answerTwo === 'n'){
-  alert('Correct! I play the Guitar')
+  alert('Correct! I play the Guitar');
   }
-  console.log(`${userName} answered ${answerTwo} for question Two`)
+  console.log(`${userName} answered ${answerTwo} for question Two`);
 
 let answerThree = prompt('Is Ryans favorite genre of music Metal?').toLowerCase();
   if(answerThree === 'yes' || answerThree === 'y'){
-    alert('Thats correct! Ryan loves his metal!')
+    alert('Thats correct! Ryan loves his metal!');
   } else if(answerThree === 'no' || answerThree === 'n'){
-    alert('What???? Of course Ryan loves metal!')
+    alert('What???? Of course Ryan loves metal!');
   }
-  console.log(`${userName} answered ${answerThree} for question Three`)
+  console.log(`${userName} answered ${answerThree} for question Three`);
 
 let answerFour = prompt('Is Ryans favorite band Death?').toLowerCase();
   if(answerFour === 'yes' || answerFour === 'y'){
-    alert('Oh yeah he does, that is a great band after all')
+    alert('Oh yeah he does, that is a great band after all');
   } else if(answerFour === 'no' || answerFour === 'n'){
-    alert('How could he not? That band is awesome!')
+    alert('How could he not? That band is awesome!');
   }
-  console.log(`${userName} answered ${answerFour} for question Four`)
+  console.log(`${userName} answered ${answerFour} for question Four`);
 
 let answerFive = prompt('Is this last question relavent?').toLowerCase();
   if(answerFive === 'yes' || answerFive === 'y'){
-    alert('No... It most definitly is not...')
+    alert('No... It most definitly is not...');
   } else if(answerFive === 'no' || answerFive === 'n'){
-    alert('Correct! Even Ryan does not know why he put in this question!')
+    alert('Correct! Even Ryan does not know why he put in this question!');
   }
   console.log(`${userName} answered ${answerFive} for question Five`);
 
-alert(`Thank you ${userName} for playing this simple guessing game! Take care!`)
+alert(`Thank you ${userName} for playing this simple guessing game! Take care!`);
