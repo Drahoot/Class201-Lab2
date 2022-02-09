@@ -6,7 +6,7 @@ I am building a website that asks very basic yes or no questions when prompted.
 
 Author: Ryan McMillan
 
-Links and Resources: N/a
+Links and Resources: Bishal K.
 
 Reflections and Comments
 - new way of syntax learned today, learned to how to ACP using git commands to Github.
