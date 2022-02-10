@@ -27,12 +27,16 @@ console.log(`${userName} answered ${answerOne} for question One`)
 
 let answerTwo = prompt('Do I play the bass?').toLowerCase();
 
+function questionTwoFunc(){
 if (answerTwo === 'yes' || answerTwo === 'y') {
   alert('Unfortunatly I do not, I play the guitar!');
 } else if (answerTwo === 'no' || answerTwo === 'n') {
   alert('Correct! I play the Guitar');
   counter = counter + 1;
 }
+}
+questionTwoFunc(); 
+
 console.log(`${userName} answered ${answerTwo} for question Two`);
 
 let answerThree = prompt('Is Ryans favorite genre of music Metal?').toLowerCase();
