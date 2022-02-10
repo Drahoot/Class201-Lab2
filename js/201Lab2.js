@@ -57,25 +57,25 @@ if (answerFive === 'yes' || answerFive === 'y') {
 }
 console.log(`${userName} answered ${answerFive} for question Five`);
 
-let myNumber = '17';
+
+
+
+let myNumber = 17;
 
 let i = 0;
-userNumber = prompt('What number am I thinking of? Give ya a hint, it is between One and 25');
-while (i <= 2) {
+
+while (i <= 3) {
   i++;
-  //userNumber = prompt('What number am I thinking of? Give ya a hint, it is between One and 25');
-  if (userNumber > myNumber) {
-    alert('Sorry bro, too high of a number');
-    userNumber = prompt('What number am I thinking of? Give ya a hint, it is between One and 25');
-  } else if (userNumber < myNumber) {
-    alert('Sorry bro, too low of a number');
-    userNumber = prompt('What number am I thinking of? Give ya a hint, it is between One and 25');
-  } else {
+  let userNumber = prompt('What number am I thinking of? Give ya a hint, it is between One and 25. You have 4 attempts.');
+  if (userNumber == myNumber){
     alert('You are correct!');
-    counter = counter + 1;
-    //console.log(userName, userNumber)
-    break;
-  }
+    counter = counter +1;
+    break; 
+  } else if (userNumber > myNumber) {
+    alert('Sorry bro, too high of a number');
+  } else {
+    alert('Sorry bro, too low of a number');
+  } 
 }
 alert('The correct answer was 17, Hope ya got it right!')
 
