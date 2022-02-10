@@ -67,13 +67,19 @@ questionFourFunc();
 
 console.log(`${userName} answered ${answerFour} for question Four`);
 
+
 let answerFive = prompt('Is this last question relavent?').toLowerCase();
+
+function questionFiveFunc(){
 if (answerFive === 'yes' || answerFive === 'y') {
   alert('No... It most definitly is not...');
 } else if (answerFive === 'no' || answerFive === 'n') {
   alert('Correct! Even Ryan does not know why he put in this question!');
   counter = counter + 1;
 }
+}
+questionFiveFunc();
+
 console.log(`${userName} answered ${answerFive} for question Five`);
 
 
