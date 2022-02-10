@@ -11,13 +11,18 @@ let answerOne = prompt('Do I have a cat?').toLowerCase();
 // .toLowerCase will make it accept all lower case inputs 
 // .toUpperCase must have yes no answers be all capitals
 
+function questionOneFunc (){
 if (answerOne === 'yes' || answerOne === 'y') {
   alert('Yes I do have a cat');
   counter = counter + 1;
 } else if (answerOne === 'no' || answerOne === 'n') {
   alert('Sorry you are incorrect')
 }
+}
+questionOneFunc();
+
 console.log(`${userName} answered ${answerOne} for question One`)
+
 // acp files individually for to make commenting on a commit easier and cleaner
 
 let answerTwo = prompt('Do I play the bass?').toLowerCase();
