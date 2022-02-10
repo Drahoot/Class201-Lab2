@@ -39,13 +39,18 @@ questionTwoFunc();
 
 console.log(`${userName} answered ${answerTwo} for question Two`);
 
+
 let answerThree = prompt('Is Ryans favorite genre of music Metal?').toLowerCase();
+
+function questionThreeFunc(){
 if (answerThree === 'yes' || answerThree === 'y') {
   alert('Thats correct! Ryan loves his metal!');
   counter = counter + 1;
 } else if (answerThree === 'no' || answerThree === 'n') {
   alert('What???? Of course Ryan loves metal!');
 }
+}
+questionThreeFunc(); 
 console.log(`${userName} answered ${answerThree} for question Three`);
 
 let answerFour = prompt('Is Ryans favorite band Death?').toLowerCase();
