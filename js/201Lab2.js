@@ -89,6 +89,7 @@ let myNumber = 17;
 
 let i = 0;
 
+function questionSixFunc (){
 while (i <= 3) {
   i++;
   let userNumber = prompt('What number am I thinking of? Give ya a hint, it is between One and 25. You have 4 attempts.');
@@ -102,6 +103,8 @@ while (i <= 3) {
     alert('Sorry bro, too low of a number');
   } 
 }
+}
+questionSixFunc();
 alert('The correct answer was 17, Hope ya got it right!')
 
 let songs = ['master of puppets', 'fade to black', 'flesh and the power it holds', 'one', 'holy wars', 'voice of the soul', 'symbolic', 'spirit crusher', 'creeping death', 'five magics']
