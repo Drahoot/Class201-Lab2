@@ -78,4 +78,43 @@ while (i <= 2){
   }
 }
 alert('The correct answer was 17, Better luck next time!')
+
+let songs = ['Master of Puppets', 'Fade to Black', 'Flesh and the Power it holds', 'One', 'Holy wars', 'Voice of the Soul', 'Symbolic', 'Spirit Crusher', 'Creeping Death', 'Five Magics']
+let songGuesses = 6; 
+let favorite = ['Flesh and the Power it holds' , 'Master of Puppets'] 
+let foundFavorite = false
+let a = 0
+
+let userInput = prompt('Out of these songs, which do you think are my favorite?')
+
+alert()
+
+while (songGuesses && !foundFavorite){
+
+}
+
+
+// let students = ['Thomas', 'Eden', 'Tanesha', 'James', 'Ben', 'Ryan', 'Tai', 'Cole', ];
+
+// function getRandomStudent(){
+//   let randomIdx = Math.floor(Math.random() * students.length);
+//   let randomStudent = students[randomIdx];
+//   return randomstudent;
+// }
+// let clueGuesses = 20;
+// let suspect = 'Eden';
+// let foundSuspect = false;
+
+// //.        20      &&     true
+// while(clueGuesses && !foundSuspect){
+//   let myGuess= getRandomStudent();
+//   console.log('It was ${myGuess}, in Remo, with the candlestick!
+//   Guesses: ${clueGuesses}');
+//   clueGuesses--;
+//   if(myGuess === suspect){
+//     foundSuspect = true       // this will stop the loop when value is true
+//   }
+// }
+
+
 alert(`Thank you ${userName} for playing this simple guessing game! You have gotten ${counter} answers correct!`);
