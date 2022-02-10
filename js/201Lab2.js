@@ -79,42 +79,30 @@ while (i <= 2){
 }
 alert('The correct answer was 17, Better luck next time!')
 
-let songs = ['Master of Puppets', 'Fade to Black', 'Flesh and the Power it holds', 'One', 'Holy wars', 'Voice of the Soul', 'Symbolic', 'Spirit Crusher', 'Creeping Death', 'Five Magics']
+let songs = ['master of puppets', 'fade to black', 'flesh and the power it holds', 'one', 'holy wars', 'voice of the soul', 'symbolic', 'spirit crusher', 'creeping death', 'five magics']
 let songGuesses = 6; 
-let favorite = ['Flesh and the Power it holds' , 'Master of Puppets'] 
-let foundFavorite = false
-let a = 0
+let favorite = ['flesh and the power it holds' , 'master of puppets'];
+let foundFavorite = false;
 
-let userInput = prompt('Out of these songs, which do you think are my favorite?')
+let userInput = prompt('Out of these songs, which do you think are my favorite? Master of Puppets, Fade to Black, Flesh and the Power it holds, One, Holy wars, Voice of the Soul, Symbolic, Spirit Crusher, Creeping Death, Five Magics.')
 
-alert()
+let i = 0; 
 
+while (i <= 6){
+i++
 while (songGuesses && !foundFavorite){
+  
+    songGuesses--;
+    for (let i=0; i < favorite.length; i++){
+    
+  
+    if (userInput === favorite[i]){
+    alert('You guessed right!')  
+    foundFavorite = true;
+      counter = counter + 1;
+      } 
+    }
+  }
 
-}
-
-
-// let students = ['Thomas', 'Eden', 'Tanesha', 'James', 'Ben', 'Ryan', 'Tai', 'Cole', ];
-
-// function getRandomStudent(){
-//   let randomIdx = Math.floor(Math.random() * students.length);
-//   let randomStudent = students[randomIdx];
-//   return randomstudent;
-// }
-// let clueGuesses = 20;
-// let suspect = 'Eden';
-// let foundSuspect = false;
-
-// //.        20      &&     true
-// while(clueGuesses && !foundSuspect){
-//   let myGuess= getRandomStudent();
-//   console.log('It was ${myGuess}, in Remo, with the candlestick!
-//   Guesses: ${clueGuesses}');
-//   clueGuesses--;
-//   if(myGuess === suspect){
-//     foundSuspect = true       // this will stop the loop when value is true
-//   }
-// }
-
-
+alert('Master of puppets as well as flesh and the power it holds were the correct answers, hope you got them right!')
 alert(`Thank you ${userName} for playing this simple guessing game! You have gotten ${counter} answers correct!`);
