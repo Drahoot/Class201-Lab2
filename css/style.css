@@ -10,3 +10,13 @@ text-align: center;
 font-size: larger;
 
 }
+
+footer {
+  font-size: large;
+  text-align: center;
+  margin: 25px;
+}
+
+.two{
+  margin: 25px;
+}
