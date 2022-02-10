@@ -112,6 +112,7 @@ let songGuesses = 6;
 let favorite = ['flesh and the power it holds', 'master of puppets'];
 let foundFavorite = false;
 
+function questionSevenFunc(){
 while (songGuesses > 1 && !foundFavorite) {
   let userInput = prompt('Out of these songs, which do you think are my favorite? Master of Puppets, Fade to Black, Flesh and the Power it holds, One, Holy wars, Voice of the Soul, Symbolic, Spirit Crusher, Creeping Death, Five Magics.');
   songGuesses--;
@@ -125,6 +126,8 @@ while (songGuesses > 1 && !foundFavorite) {
     }
   }
 }
+}
+questionSevenFunc(); 
 
 alert('Master of puppets as well as flesh and the power it holds were the correct answers, hope you got them right!')
 alert(`Thank you ${userName} for playing this simple guessing game! You have gotten ${counter} answers correct!`);
