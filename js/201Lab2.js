@@ -54,12 +54,17 @@ questionThreeFunc();
 console.log(`${userName} answered ${answerThree} for question Three`);
 
 let answerFour = prompt('Is Ryans favorite band Death?').toLowerCase();
+
+function questionFourFunc(){
 if (answerFour === 'yes' || answerFour === 'y') {
   alert('Oh yeah he does, that is a great band after all');
   counter = counter + 1;
 } else if (answerFour === 'no' || answerFour === 'n') {
   alert('How could he not? That band is awesome!');
 }
+}
+questionFourFunc();
+
 console.log(`${userName} answered ${answerFour} for question Four`);
 
 let answerFive = prompt('Is this last question relavent?').toLowerCase();
