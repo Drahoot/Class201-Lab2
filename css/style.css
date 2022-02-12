@@ -12,11 +12,31 @@ font-size: larger;
 }
 
 footer {
-  font-size: large;
+  font-size: 15px;
   text-align: center;
   margin: 25px;
 }
 
 .two{
   margin: 25px;
+}
+ol{
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: decimal ;
+  width: auto;
+  
+  
+}
+ body {  background-image: url("me.jpeg"); 
+ } 
+
+
+#list-div{
+  background-color: #ffffff;
+  position: center;
+  border-color: #6930C3;
+  border: 5px solid; 
+  content: auto;
+  display: inline-block;
 }
